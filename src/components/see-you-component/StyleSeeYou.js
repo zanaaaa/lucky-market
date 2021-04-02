@@ -3,7 +3,7 @@ const styles = {
         color:'white',
         display:'block',
         fontSize:'2em',
-        fontFamily:'Paytone One, sans-serif',
+        // fontFamily:'Paytone One, sans-serif',
     }
     
 };

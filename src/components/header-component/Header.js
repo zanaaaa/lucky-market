@@ -10,7 +10,9 @@ const Header = () => {
             <div style={styles.title} className="link">
                 {LuckyMarket}
             </div>
-            <SeeYou/>
+            <div className="seeYou">
+                Uskoro...
+            </div>
         </div>
     );
 }

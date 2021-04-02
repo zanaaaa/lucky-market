@@ -1,8 +1,10 @@
 const styles = {
     outerWrapper:{
-        height:"20vh",
+        height:"15vh",
         width:"100%",
         backgroundColor:"white",
+        boxSizing:"border-box",
+        padding:"2%",
         order:"4",
     },
 

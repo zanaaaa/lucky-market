@@ -1,3 +1,13 @@
+@font-face {
+  font-family: BoleanSabitSans;
+  src: url(../BoelanSabitDemoSans.ttf);
+}
+
+@font-face {
+  font-family: BoleanSabitSans;
+  src: url(../BoelanSabitDemoRegular.ttf);
+}
+
 .App {
   text-align: center;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -10,6 +20,8 @@
   position:relative;
   align-items:space-between;
 }
+
+
 
 .App-logo {
   height: 40vmin;

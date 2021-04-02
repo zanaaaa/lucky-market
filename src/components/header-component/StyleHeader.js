@@ -11,6 +11,7 @@ const styles = {
         display:"flex",
         flexDirection:"column",
         order:"1",
+        backgroundImage:'url("https://images.pexels.com/photos/6044201/pexels-photo-6044201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")',
     },
     title: {
         boxSizing: "border-box",
@@ -21,7 +22,7 @@ const styles = {
         justifyContent: "center",
         fontSize: "10vmin",
         color: "white",
-        fontFamily:"Paytone One, sans-serif",
+        // fontFamily:"Paytone One, sans-serif",
     }
     
 };

@@ -1,4 +1,19 @@
+@font-face {
+    font-family: BoelanSabitSans;
+    src: url(../../BoelanSabitDemoSans.ttf);
+}
+
+@font-face {
+    font-family: BoelanSabitRegular;
+    src: url(../../BoelanSabitDemoRegular.ttf);
+}
+
 .link {
-    /* align-self:center; */
-    
+    font-family:BoelanSabitSans;
+}
+
+.seeYou{
+    font-family:BoelanSabitRegular;
+    font-size:5vmin;
+    color:white;
 }
