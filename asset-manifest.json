@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lucky-market/static/css/main.f63fe8d2.chunk.css",
+    "main.js": "/lucky-market/static/js/main.8dc5d267.chunk.js",
+    "main.js.map": "/lucky-market/static/js/main.8dc5d267.chunk.js.map",
+    "runtime-main.js": "/lucky-market/static/js/runtime-main.1e6ce032.js",
+    "runtime-main.js.map": "/lucky-market/static/js/runtime-main.1e6ce032.js.map",
+    "static/js/2.0735e9d7.chunk.js": "/lucky-market/static/js/2.0735e9d7.chunk.js",
+    "static/js/2.0735e9d7.chunk.js.map": "/lucky-market/static/js/2.0735e9d7.chunk.js.map",
+    "index.html": "/lucky-market/index.html",
+    "static/css/main.f63fe8d2.chunk.css.map": "/lucky-market/static/css/main.f63fe8d2.chunk.css.map",
+    "static/js/2.0735e9d7.chunk.js.LICENSE.txt": "/lucky-market/static/js/2.0735e9d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e6ce032.js",
+    "static/js/2.0735e9d7.chunk.js",
+    "static/css/main.f63fe8d2.chunk.css",
+    "static/js/main.8dc5d267.chunk.js"
+  ]
+}
