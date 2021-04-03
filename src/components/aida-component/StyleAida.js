@@ -2,8 +2,9 @@ const styles = {
     outerWrapper: {
         width:"40%",
         height:"10%",
-        margin:"auto",
-        order:"3",
+        position:"absolute",
+        top:"75%",
+        left:"50%",
     }
     
 };

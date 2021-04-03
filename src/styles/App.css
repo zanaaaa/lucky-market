@@ -1,17 +1,11 @@
-@font-face {
-  font-family: BoleanSabitSans;
-  src: url(../BoelanSabitDemoSans.ttf);
-}
-
-@font-face {
-  font-family: BoleanSabitSans;
-  src: url(../BoelanSabitDemoRegular.ttf);
-}
 
 .App {
   text-align: center;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: #acb6e5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* background-size: 400% 400%; */
   height: 400vh;
   width: 100%;
   margin:auto;
@@ -20,8 +14,6 @@
   position:relative;
   align-items:space-between;
 }
-
-
 
 .App-logo {
   height: 40vmin;

@@ -20,9 +20,6 @@ const styles = {
         display: "inline-flex",
         alignItems: "center",
         justifyContent: "center",
-        fontSize: "10vmin",
-        color: "white",
-        // fontFamily:"Paytone One, sans-serif",
     }
     
 };

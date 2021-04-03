@@ -1,17 +1,25 @@
 @font-face {
     font-family: BoelanSabitSans;
-    src: url(../../BoelanSabitDemoSans.ttf);
+    src: url(../../assets/fonts/BoelanSabitDemoSans.ttf);
 }
 
 @font-face {
     font-family: BoelanSabitRegular;
-    src: url(../../BoelanSabitDemoRegular.ttf);
+    src: url(../../assets/fonts/BoelanSabitDemoRegular.ttf);
 }
 
 .link {
     font-family:BoelanSabitSans;
+    cursor:pointer;
+    color:white;
+    height:100%;
+    font-size: 9vh;
 }
 
+.link:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
 .seeYou{
     font-family:BoelanSabitRegular;
     font-size:5vmin;

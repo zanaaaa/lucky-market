@@ -3,8 +3,8 @@ import styles from './StyleGallery.js';
 
 const Gallery = () => {
     return (
-        <div>
-
+        <div style={styles.outerWrapper}>
+            **Galerija**
         </div>
     );
 }
