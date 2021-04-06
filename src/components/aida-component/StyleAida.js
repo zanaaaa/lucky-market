@@ -3,8 +3,8 @@ const styles = {
         width:"40%",
         height:"10%",
         position:"absolute",
-        top:"75%",
-        left:"50%",
+        top:"70%",
+        left:"10%",
     }
     
 };

@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from './StyleHeader.js';
 import './headerCss.css';
-import SeeYou from '../see-you-component/SeeYou.js';
 
-const LuckyMarket = "LUCKY MARKET";
 const Header = () => {
     const pageReload = () => {window.location.reload(false);}
     return (
@@ -12,7 +10,7 @@ const Header = () => {
                 <span className="link">Lucky Market</span> 
             </div>
             <div className="seeYou">
-                Uskoro...
+                Dobrodošli!                
             </div>
         </div>
     );

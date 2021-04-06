@@ -1,9 +1,10 @@
+import background from "../../assets/images/background.jpg";
 
 const styles = {
     headerStyle: {
         width: "100%",
         position:"absolute",
-        height: "25%",
+        height: "20%",
         justifyContent: "center",
         borderBottom: "1px solid rgba(0, 0, 0, 0.2)",
 	    boxShadow: "0 1px 5px rgba(0, 0, 0, 0.15)",
@@ -11,7 +12,10 @@ const styles = {
         display:"flex",
         flexDirection:"column",
         order:"1",
-        backgroundImage:'url("https://images.pexels.com/photos/6044201/pexels-photo-6044201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")',
+        backgroundImage:`url(${background})`,
+        backgroundSize:"cover",
+        backgroundRepeat:"no-repeat",
+        backgroundPosition:"center",
     },
     title: {
         boxSizing: "border-box",

@@ -2,11 +2,17 @@
 .App {
   text-align: center;
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-  background: #acb6e5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	/* background-size: 400% 400%; */
-  height: 400vh;
+   background: #acb6e5;   /*fallback for old browsers  */
+  background: -webkit-linear-gradient(to right, #93a5cf, #e4efe9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93a5cf, #e4efe9);  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* background-size: 100% 100%;  */
+  /* background: linear-gradient(270.03deg, rgba(108, 175, 215, 0.6) 6.35%, rgba(194, 224, 242, 0) 114.48%); */
+  background-image: url(../assets/images/appBackground.svg);
+  background-repeat:no-repeat; 
+  background-size:contain;
+  background-position:bottom;
+  background-attachment: fixed;
+  height: 500vh;
   width: 100%;
   margin:auto;
   display:flex;

@@ -8,12 +8,43 @@
     src: url(../../assets/fonts/BoelanSabitDemoRegular.ttf);
 }
 
+@font-face {
+    font-family: Malion;
+    src: url(../../assets/fonts/Malion.ttf);
+}
+
+@font-face {
+    font-family: Hangier;
+    src: url(../../assets/fonts/Hangier.ttf);
+}
+
+@font-face {
+    font-family: WastingerDisplay;
+    src: url(../../assets/fonts/WastingerDisplay.ttf);
+}
+
+@font-face {
+    font-family: BanaChips;
+    src: url(../../assets/fonts/BanaChips.ttf);
+}
+
+@font-face {
+    font-family: SweetSmile;
+    src: url(../../assets/fonts/SweetSmile.ttf);
+}
+
+@font-face {
+    font-family: AguafinaScript;
+    src: url(../../assets/fonts/AguafinaScript-Regular.ttf);
+}
+
 .link {
-    font-family:BoelanSabitSans;
+    font-family:SweetSmile;
+    text-transform:uppercase;
     cursor:pointer;
     color:white;
     height:100%;
-    font-size: 9vh;
+    font-size:calc(5vh + 5vw);
 }
 
 .link:hover{
@@ -21,7 +52,7 @@
     -webkit-text-stroke: 2px white;
 }
 .seeYou{
-    font-family:BoelanSabitRegular;
-    font-size:5vmin;
+    font-family:AguafinaScript;
+    font-size:calc(2.5vh + 2.5vw);
     color:white;
 }
