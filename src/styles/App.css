@@ -28,14 +28,6 @@
   align-items:space-between;
 }
 
-.aboutUs {
-  width:50%;
-  height:10%;
-  position:absolute;
-  left:10%;
-  top:40%;
-  
-}
 
 .text {
   font-size:3vmin;
@@ -49,6 +41,30 @@
   animation: animated-border 1.5s infinite;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
+}
+
+.aboutUs {
+  width:50%;
+  height:10%;
+  position:absolute;
+  left:10%;
+  top:40%;
+}
+
+.Aida{
+  width:40%;
+  height:10%;
+  position:absolute;
+  top:70%;
+  left:10%;
+}
+
+.AK{
+  width:40%;
+  height:10%;
+  position:absolute;
+  left:50%;
+  top:55%;
 }
 
 
