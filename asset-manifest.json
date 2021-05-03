@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/lucky-market/static/css/main.d8182f95.chunk.css",
-    "main.js": "/lucky-market/static/js/main.6e86e6d9.chunk.js",
-    "main.js.map": "/lucky-market/static/js/main.6e86e6d9.chunk.js.map",
+    "main.css": "/lucky-market/static/css/main.9eeaa2a0.chunk.css",
+    "main.js": "/lucky-market/static/js/main.2a77cc80.chunk.js",
+    "main.js.map": "/lucky-market/static/js/main.2a77cc80.chunk.js.map",
     "runtime-main.js": "/lucky-market/static/js/runtime-main.1e6ce032.js",
     "runtime-main.js.map": "/lucky-market/static/js/runtime-main.1e6ce032.js.map",
     "static/css/2.ea11fe1c.chunk.css": "/lucky-market/static/css/2.ea11fe1c.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.346861c6.chunk.js.map": "/lucky-market/static/js/2.346861c6.chunk.js.map",
     "index.html": "/lucky-market/index.html",
     "static/css/2.ea11fe1c.chunk.css.map": "/lucky-market/static/css/2.ea11fe1c.chunk.css.map",
-    "static/css/main.d8182f95.chunk.css.map": "/lucky-market/static/css/main.d8182f95.chunk.css.map",
+    "static/css/main.9eeaa2a0.chunk.css.map": "/lucky-market/static/css/main.9eeaa2a0.chunk.css.map",
     "static/js/2.346861c6.chunk.js.LICENSE.txt": "/lucky-market/static/js/2.346861c6.chunk.js.LICENSE.txt",
     "static/media/headerCss.css": "/lucky-market/static/media/WastingerDisplay.0d59a989.ttf",
     "static/media/App.css": "/lucky-market/static/media/appBackground.584d3fe4.svg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.1e6ce032.js",
     "static/css/2.ea11fe1c.chunk.css",
     "static/js/2.346861c6.chunk.js",
-    "static/css/main.d8182f95.chunk.css",
-    "static/js/main.6e86e6d9.chunk.js"
+    "static/css/main.9eeaa2a0.chunk.css",
+    "static/js/main.2a77cc80.chunk.js"
   ]
 }
