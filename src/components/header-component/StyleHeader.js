@@ -4,7 +4,7 @@ const styles = {
     headerStyle: {
         width: "100%",
         position:"absolute",
-        height: "20%",
+        height: "13%",
         justifyContent: "center",
         borderBottom: "1px solid rgba(0, 0, 0, 0.2)",
 	    boxShadow: "0 1px 5px rgba(0, 0, 0, 0.15)",

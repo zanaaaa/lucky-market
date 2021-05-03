@@ -3,7 +3,7 @@ const styles = {
         width: "100%",
         position:"absolute",
         height: "20%",
-        top:"20%",
+        top:"13%",
         justifyContent: "center",
         boxSizing:"border-box",
     },
