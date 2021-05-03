@@ -3,8 +3,8 @@ import styles from './StyleFooter.js';
 
 const Footer = () => {
     return (
-        <div style={styles.outerWrapper}>
-            <div style={{fontSize:"8vh", boxSizing:"border-box",}}>Footer</div>
+        <div style={styles.outerWrapper} className="footer">
+            <div>Footer</div>
         </div>
     );
 }
