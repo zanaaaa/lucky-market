@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './styles/App.css';
 import Header from './components/header-component/Header';
 import Footer from './components/footer-component/Footer';
@@ -10,6 +11,8 @@ import lucky2 from './assets/images/lucky2.png';
 import lucky3 from './assets/images/lucky3.png';
 import lucky4 from './assets/images/lucky4.jpg';
 import asocijacija from './assets/images/asocijacija.jpg';
+import { init, sendForm } from 'emailjs-com';
+init('user_HI1enShe8TsEkAhzcV3u7');
 
 
 function App() {
