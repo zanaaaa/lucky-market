@@ -24,13 +24,25 @@
 
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
+@media only screen and (min-width:768px) {
+  .App {
+    text-align: center;
+    background-image: url(../assets/images/appBackground.svg);
+    background-repeat:no-repeat; 
+    background-size:contain;
+    background-position:bottom;
+    background-attachment: fixed;
+  }
+  .header {
+    background-image: url(/src/assets/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } 
+}
+
 .App {
   text-align: center;
-  background-image: url(../assets/images/appBackground.svg);
-  background-repeat:no-repeat; 
-  background-size:contain;
-  background-position:bottom;
-  background-attachment: fixed;
   height: 900vh;
   width: 100%;
   margin:auto;
@@ -40,14 +52,18 @@
   align-items:space-between;
 }
 
-/* .gallery {
-  border:1px solid white;
-  border-radius:30px;
-  animation: animated-border 1.5s infinite;
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
-  padding: 2%;
-} */
+.gallery {
+    width: 55%;
+    position:absolute;
+    /* // height: 20%; */
+    top:14%;
+    left:22.5%;
+    justify-content: center;
+    box-sizing:border-box;
+    /* // padding:"5% 10%", */
+} 
+
+
 
 .text {
   font-size:2.7vmin;
@@ -227,5 +243,129 @@ button[type=submit] {
   border-radius:30px;
   font-family:Nunito; 
   font-size: 2.5vmin;
+  
+}
+
+.footer{
+  font-family:Nunito; 
+
+}
+
+
+@media only screen and (max-width:768px) {
+  .App {
+    text-align: center;
+    height: 900vh;
+    width: 100%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    align-items:space-between;
+  }
+
+  .header {
+    background-image: url(/src/assets/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  } 
+  
+  .text {
+    font-size:3.5vmin;
+    line-height: 1.5; 
+    font-family:Nunito; 
+    box-sizing:border-box;
+    padding:3%;
+    width: 100%;
+    height: 40%;
+    text-align:center; 
+    border:1px solid white;
+    border-radius:30px;
+    animation: animated-border 1.5s infinite;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+
+  .gallery {
+    width: 90%;
+    position:absolute;
+    /* // height: 20%; */
+    top:14%;
+    left:5%;
+    justify-content: center;
+    box-sizing:border-box;
+    /* // padding:"5% 10%", */
+  } 
+  #LM1 {
+    width:100%;
+    position:absolute;
+    top:27%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  #LM2 {
+    width:100%;
+    height:100vh;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding:2% 5%;
+    top:37%;
+  }
+
+  #LM3 {
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding:2% 5%;
+    top:47%;
+  }
+
+  #LM4 {
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding:2% 5%;
+    top:56%;
+  }
+
+  #AK {
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0% 5%;
+    top:67%;
+  }
+
+  #Aida{
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding:2% 5%;
+    top:76%;
+    
+  }
   
 }

@@ -5,7 +5,7 @@ import './headerCss.css';
 const Header = () => {
     const pageReload = () => {window.location.reload(false);}
     return (
-        <div style={styles.headerStyle}>
+        <div style={styles.headerStyle} className="header">
             <div style={styles.title}  onClick={pageReload}>
                 <span className="link">Lucky Market</span> 
             </div>

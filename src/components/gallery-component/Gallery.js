@@ -85,7 +85,7 @@ const images = [
 
 const Gallery = () => {
     return (
-        <div style={styles.outerWrapper} className="gallery">
+        <div className="gallery">
             <ImageGallery className="gallery" items={images} />
         </div>
     );
