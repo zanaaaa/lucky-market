@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf6d30a8.chunk.css",
-    "main.js": "/static/js/main.f69085af.chunk.js",
-    "main.js.map": "/static/js/main.f69085af.chunk.js.map",
+    "main.css": "/static/css/main.eea01184.chunk.css",
+    "main.js": "/static/js/main.59dae6dc.chunk.js",
+    "main.js.map": "/static/js/main.59dae6dc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.deee0697.js",
     "runtime-main.js.map": "/static/js/runtime-main.deee0697.js.map",
     "static/css/2.ea11fe1c.chunk.css": "/static/css/2.ea11fe1c.chunk.css",
-    "static/js/2.d45efee9.chunk.js": "/static/js/2.d45efee9.chunk.js",
-    "static/js/2.d45efee9.chunk.js.map": "/static/js/2.d45efee9.chunk.js.map",
+    "static/js/2.31e41140.chunk.js": "/static/js/2.31e41140.chunk.js",
+    "static/js/2.31e41140.chunk.js.map": "/static/js/2.31e41140.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.ea11fe1c.chunk.css.map": "/static/css/2.ea11fe1c.chunk.css.map",
-    "static/css/main.cf6d30a8.chunk.css.map": "/static/css/main.cf6d30a8.chunk.css.map",
-    "static/js/2.d45efee9.chunk.js.LICENSE.txt": "/static/js/2.d45efee9.chunk.js.LICENSE.txt",
+    "static/css/main.eea01184.chunk.css.map": "/static/css/main.eea01184.chunk.css.map",
+    "static/js/2.31e41140.chunk.js.LICENSE.txt": "/static/js/2.31e41140.chunk.js.LICENSE.txt",
     "static/media/headerCss.css": "/static/media/SweetSmile.dca58247.ttf",
     "static/media/App.css": "/static/media/background .02ec4201.jpg",
     "static/media/aida.aceaf51c.png": "/static/media/aida.aceaf51c.png",
     "static/media/asocijacija.0f38b4bd.jpg": "/static/media/asocijacija.0f38b4bd.jpg",
     "static/media/fb.09e0c2a2.svg": "/static/media/fb.09e0c2a2.svg",
-    "static/media/fest.1538302f.jpg": "/static/media/fest.1538302f.jpg",
     "static/media/ig.4e6487e6.svg": "/static/media/ig.4e6487e6.svg",
     "static/media/li.52264cc7.svg": "/static/media/li.52264cc7.svg",
     "static/media/logo.9fb26dae.ico": "/static/media/logo.9fb26dae.ico",
@@ -26,13 +25,14 @@
     "static/media/lucky3.7e6d5334.png": "/static/media/lucky3.7e6d5334.png",
     "static/media/lucky4.fe1fb095.jpg": "/static/media/lucky4.fe1fb095.jpg",
     "static/media/mail.5c5096a2.svg": "/static/media/mail.5c5096a2.svg",
+    "static/media/modestfest.04d266cf.jpg": "/static/media/modestfest.04d266cf.jpg",
     "static/media/phone.5b293894.svg": "/static/media/phone.5b293894.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.deee0697.js",
     "static/css/2.ea11fe1c.chunk.css",
-    "static/js/2.d45efee9.chunk.js",
-    "static/css/main.cf6d30a8.chunk.css",
-    "static/js/main.f69085af.chunk.js"
+    "static/js/2.31e41140.chunk.js",
+    "static/css/main.eea01184.chunk.css",
+    "static/js/main.59dae6dc.chunk.js"
   ]
 }
