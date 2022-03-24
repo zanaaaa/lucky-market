@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eea01184.chunk.css",
-    "main.js": "/static/js/main.59dae6dc.chunk.js",
-    "main.js.map": "/static/js/main.59dae6dc.chunk.js.map",
+    "main.js": "/static/js/main.59be729c.chunk.js",
+    "main.js.map": "/static/js/main.59be729c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.deee0697.js",
     "runtime-main.js.map": "/static/js/runtime-main.deee0697.js.map",
     "static/css/2.ea11fe1c.chunk.css": "/static/css/2.ea11fe1c.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/App.css": "/static/media/background .02ec4201.jpg",
     "static/media/aida.aceaf51c.png": "/static/media/aida.aceaf51c.png",
     "static/media/asocijacija.0f38b4bd.jpg": "/static/media/asocijacija.0f38b4bd.jpg",
+    "static/media/creativityFest.7a631fbb.png": "/static/media/creativityFest.7a631fbb.png",
     "static/media/fb.09e0c2a2.svg": "/static/media/fb.09e0c2a2.svg",
     "static/media/ig.4e6487e6.svg": "/static/media/ig.4e6487e6.svg",
     "static/media/li.52264cc7.svg": "/static/media/li.52264cc7.svg",
@@ -25,7 +26,6 @@
     "static/media/lucky3.7e6d5334.png": "/static/media/lucky3.7e6d5334.png",
     "static/media/lucky4.fe1fb095.jpg": "/static/media/lucky4.fe1fb095.jpg",
     "static/media/mail.5c5096a2.svg": "/static/media/mail.5c5096a2.svg",
-    "static/media/modestfest.04d266cf.jpg": "/static/media/modestfest.04d266cf.jpg",
     "static/media/phone.5b293894.svg": "/static/media/phone.5b293894.svg"
   },
   "entrypoints": [
@@ -33,6 +33,6 @@
     "static/css/2.ea11fe1c.chunk.css",
     "static/js/2.31e41140.chunk.js",
     "static/css/main.eea01184.chunk.css",
-    "static/js/main.59dae6dc.chunk.js"
+    "static/js/main.59be729c.chunk.js"
   ]
 }
