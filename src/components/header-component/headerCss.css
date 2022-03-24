@@ -1,0 +1,28 @@
+@font-face {
+    font-family: SweetSmile;
+    src: url(../../assets/fonts/SweetSmile.ttf);
+}
+
+@font-face {
+    font-family: Handycheera;
+    src: url(../../assets/fonts/Handycheera.otf);
+}
+
+.link {
+    font-family:SweetSmile;
+    text-transform:uppercase;
+    cursor:pointer;
+    color:white;
+    height:100%;
+    font-size:calc(5vh + 5vw);
+}
+
+.link:hover{
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+}
+.seeYou{
+    font-family:Handycheera;
+    font-size:calc(2.5vh + 2.5vw);
+    color:white;
+}

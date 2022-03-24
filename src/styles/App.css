@@ -1,0 +1,496 @@
+@font-face {
+  font-family: Nunito;
+  src: url(../assets/fonts/Nunito-Light.ttf);
+}
+
+@font-face {
+  font-family: NunitoSemiBold;
+  src: url(../assets/fonts/Nunito-SemiBoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Handycheera;
+  src: url(../assets/fonts/Handycheera.otf);
+}
+
+@keyframes animated-border {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255,255,255,0.4);
+  }
+  100% {
+     box-shadow: 0 0 0 20px rgba(255,255,255,0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+@media only screen and (min-width:768px) {
+  .App {
+    text-align: center;
+    background-image: url(../assets/images/appBackground.svg);
+    background-repeat:no-repeat; 
+    background-size:contain;
+    background-position:bottom;
+    background-attachment: fixed;
+  }
+  .header {
+    background-image: url(background\ .jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  } 
+}
+
+.header {
+  height: 100vh;
+  animation: fadeIn 5s ease-in-out;
+
+} 
+
+.App {
+  text-align: center;
+  height: 1000vh; 
+  width: 100%;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  align-items:space-between;
+}
+
+#festDiv {
+  position:relative;
+  top:100vh;
+  display: flex;
+  justify-content: center;
+
+} 
+
+#saznaj {
+  position:absolute;
+  top: 60vh;
+  color: black;
+}
+
+#fest {
+  height: 80vh;
+  margin: 10vh 0;
+}
+
+#festText {
+  background-color: #EEF6FB;
+  font-size:2.3vmin;
+  line-height: 1.5; 
+  position: absolute;
+  top: 70vh;
+  font-family:Nunito; 
+  box-sizing:border-box;
+  padding:3%;
+  width: 80vw;
+  text-align:center; 
+  border:1px solid white;
+  border-radius:30px;
+  animation: animated-border 1.5s infinite;
+}
+
+.gallery {
+    width: 55%;
+    position:absolute;
+    top:208vh;
+    left:22.5%;
+    justify-content: center;
+    box-sizing:border-box;
+} 
+
+.text {
+  font-size:2.7vmin;
+  line-height: 1.5; 
+  font-family:Nunito; 
+  box-sizing:border-box;
+  padding:3%;
+  width: 40%;
+  height: 1%;
+  text-align:center; 
+  border:1px solid white;
+  border-radius:30px;
+  animation: animated-border 1.5s infinite;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.textTitle {
+  font-size:3.5vmin;
+  line-height: 1.5; 
+  font-family:NunitoSemiBold; 
+  box-sizing:border-box;
+  padding-bottom:2%; 
+  text-align:center; 
+}
+
+#lucky1 {
+  width:50%;
+  height:auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#LM1 {
+  width:100%;
+  position:absolute;
+  top:310vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  align-items: center;
+  padding:2% 5%;
+}
+
+#lucky2 {
+  width:50%;
+  height:auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#LM2 {
+  width:100%;
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  align-items: center;
+  padding:2% 5%;
+  top:400vh;
+}
+
+#lucky3 {
+  width:50%;
+  height:auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#LM3 {
+  width:100%;
+  position:absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  align-items: center;
+  padding:2% 5%;
+  top:500vh;
+}
+
+#lucky4 {
+  width:50%;
+  height:auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#LM4 {
+  width:100%;
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  align-items: center;
+  padding:2% 5%;
+  top:600vh;
+}
+
+#asocijacija{
+  width:50%;
+  height:auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#AK {
+  width:100%;
+  position:absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0% 5%;
+  top:700vh;
+}
+
+#aidaFoto{
+  width:30%;
+  height:auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Aida{
+  width:100%;
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  align-items: center;
+  padding:2% 5%;
+  top:800vh;
+}
+
+#ucestvuj{
+  font-family: Handycheera;
+  font-size: 10vmin;
+}
+
+.form{
+  width: 50%;
+  height: 8%;
+  position: absolute;
+  left: 25%;
+  top: 880vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family:Nunito; 
+}
+
+input {
+  width:70%;
+  height:50px;
+  position: relative;
+  left: 15%;
+  border:1px solid white;
+  border-radius:30px;
+  animation: animated-border 1.5s infinite;
+  box-sizing: border-box;
+  padding: 1% 3%;
+  font-family:Nunito; 
+  font-size: 15px;
+}
+
+input[type=submit] {
+  width: 80%;
+  height:60px;
+  position: relative;
+  left: 10%;
+  background-color: #212d4a;
+  color: white;
+  border:1px solid #212d4a;
+  border-radius:30px;
+  font-family:Nunito; 
+  font-size: 18px;
+  margin-top: 2vh;
+}
+
+input:focus {
+  outline:none;
+}
+
+.footer{
+  font-family:Nunito; 
+  height:20vh;
+        width:100%;
+        box-sizing:border-box;
+        position:absolute;
+        top:980vh;
+        background: #212d4a; 
+        color:white;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+}
+
+
+@media only screen and (max-width:768px) {
+  .App {
+    text-align: center;
+    height: 1100vh;
+    width: 100%;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    align-items:space-between;
+  }
+
+  .header {
+    background-image: url(background\ .jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 98vh;
+
+  } 
+  
+  .text {
+    font-size:calc(1vh + 2vw + 1vmin);
+    line-height: 1.5; 
+    font-family:Nunito; 
+    box-sizing:border-box;
+    padding:3%;
+    width: 90%;
+    height: 40%;
+    text-align:center; 
+    border:1px solid white;
+    border-radius:30px;
+    animation: animated-border 1.5s infinite;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+  }
+  .textTitle {
+    font-size:calc(1vh + 2vw + 2vmin);
+       
+  }
+
+  #festDiv {
+    padding: 0 3%;
+  }
+  
+   #saznaj {
+     top:50vh;
+   }
+
+  #fest{
+    height: auto;
+    width:100%;
+  }
+
+  .gallery {
+    width: 90%;
+    position:absolute;
+    top:200vh;
+    left:5%;
+    justify-content: center;
+    box-sizing:border-box;
+  } 
+  #LM1 {
+    width:100%;
+    position:absolute;
+    top:26%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+
+  #lucky1, #lucky2, #lucky3, #lucky4, #asocijacija, #aidaFoto {
+    width:100%;
+    margin:5% 3%;
+  }
+
+  #LM2 {
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding:2% 5%;
+    top:36%;
+  }
+
+  #LM3 {
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding:2% 5%;
+    top:45%;
+  }
+
+  #LM4 {
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding:2% 5%;
+    top:55%;
+  }
+
+  #AK {
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0% 5%;
+    top:63%;
+  }
+
+  #Aida{
+    width:100%;
+    position:absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    align-items: center;
+    padding:2% 5%;
+    top:72%;
+  }
+
+  .form{
+    width: 100%;
+    justify-content: space-evenly;
+    height: 10%;
+    left: 0%;
+    top: 935vh;
+  }
+
+  .form:focus-within {
+    background-color:#EEF6FB;
+    padding-top: 10vh;
+    min-height: 100vh;
+  }
+  
+  input {
+    width:80%;
+    position: relative;
+    left: 10%;
+    font-size: 15px;
+  }
+  
+  input[type=submit] {
+    width: 80%;
+    height:60px;
+    position: relative;
+    left: 10%;
+    font-family:Nunito; 
+    font-size: 20px;
+  }
+
+  #festText {
+    font-size:3vh;
+    line-height: 1.5; 
+    position: absolute;
+    top: 10vh;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: 50vh;
+    top: 1052vh;
+    justify-content: space-evenly;
+  }
+  
+  .form:focus-within + .footer {
+    display: none;
+  }
+}
